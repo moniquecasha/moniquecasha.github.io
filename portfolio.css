@@ -182,7 +182,7 @@ h2 {
 }
 
 .socialmedia {
-    margin-top: 100px;
+    margin-top: 80px;
     padding-bottom: 10px;
     background-color: #536878;
 }
@@ -196,8 +196,19 @@ h2 {
     color: white;
 }
 
+.fas {
+  padding: 10px;
+  padding-top: 20px;
+  color: #536878;
+}
+
+.phone, .email {
+  padding-top: 25px;
+  padding-right: 20px;
+}
+
 .footer-classic {
-  background-color: #536878
+  background-color: #536878;
 }
 
 @media (min-width: 576px) {
@@ -239,6 +250,20 @@ h2 {
         padding: 100px 20px;
        
    }
+
+   .fas {
+     margin-top: 70px;
+   }
+   .phone, .email {
+    font-size: 11px;
+    margin-top: 70px;
+   }
+
+   .socialmedia {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: #536878;
+}
 
    .footer-classic {
     font-size: 12px;
