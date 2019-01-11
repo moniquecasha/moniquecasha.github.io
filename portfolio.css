@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-   background-color:#A2AAB0;
+   background-color:#536878;
 }
 
 
@@ -46,7 +46,7 @@ header.masthead {
     margin-bottom: 50px;
     padding-top: 7rem;
     padding-bottom: 7rem;
-    background-color: #A2AAB0;
+    background-color: #536878;
   }
   
   .fas {
@@ -76,7 +76,7 @@ header.masthead {
   
   
 .jumbotron {
-    background-color:#A2AAB0; 
+    background-color: #536878; 
     margin-top: 20px;
     
 }
@@ -99,6 +99,7 @@ h2 {
     font-size: 40px;
     padding-bottom: 20px;
     text-align: right;
+    color: #536878;
 }
 .gallery-block{
     padding-bottom: 60px;
@@ -168,6 +169,7 @@ h2 {
     margin-top: 50px; 
     margin-right: 160px;
     text-align: right;
+    color: #536878;
 }
 
 .controls {
@@ -175,20 +177,27 @@ h2 {
     padding-top: 10px;
 }
 
+.form-group {
+  color: #536878;
+}
+
 .socialmedia {
     margin-top: 100px;
     padding-bottom: 10px;
-    background-color: #A2AAB0;
+    background-color: #536878;
 }
 
 .submitbtn {
-    background-color: #A2AAB0;
+    background-color: #536878;
 }
 .fab {
     padding: 10px;
     padding-top: 20px;
     color: white;
-    
+}
+
+.footer-classic {
+  background-color: #536878
 }
 
 @media (min-width: 576px) {
@@ -231,5 +240,7 @@ h2 {
        
    }
 
- 
+   .footer-classic {
+    font-size: 12px;
+   }
 }
