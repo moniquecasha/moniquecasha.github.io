@@ -16,7 +16,7 @@ body {
 header.masthead {
     position: relative;
     background-color: #A2AAB0;
-    background: url("./images/welcomepage3.jpg") no-repeat center center;
+    background: url("./images/welcomepage.jpg") no-repeat center center;
     background-size: cover;
     height: 650px;
     width: 100%;
@@ -36,8 +36,13 @@ header.masthead {
   
   header.masthead h1 {
     font-size: 55px;
-    padding-right: 250px;
-    padding-top: 150px;
+    font-family: 'Arial';
+    padding-top: 300px;
+    color: #F8F8F8;
+  } 
+    
+  header.masthead h3{
+    font-size: 20px;
     color: #F8F8F8;
   } 
 
@@ -234,10 +239,18 @@ h2 {
       object-fit: cover;
     }
     header.masthead h1 {
-      font-size: 30px;
+      font-size: 35px;
       padding-left: 20px;
       text-align: left;
     }
+
+    header.masthead h3 {
+      font-size: 20px;
+      padding-left: 20px;
+      text-align: left;
+    }
+
+    
     h4 {
         font-size: 15px;
         padding-left: 20px;
