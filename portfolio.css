@@ -46,12 +46,8 @@ header.masthead {
     color: #F8F8F8;
   } 
 
-  .features-icons {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-    background-color: #536878;
+  .descriptionme {
+    text-align: justify;
   }
   
   .fas {
@@ -78,27 +74,6 @@ header.masthead {
       font-size: 20px;
       color: #F8F8F8;
   }
-  
-  
-.jumbotron {
-    background-color: #536878; 
-    margin-top: 20px;
-    
-}
-
- .display-4 {
-    font-size: 40px;
-    text-align: left;
-    padding-bottom: 20px;
-    color: #F8F8F8;
-} 
-
-.lead {
-    font-size: 18px;
-    color: #F8F8F8;
-    text-align: left;
-    text-align: justify;
-}
 
 h2 {
     font-size: 40px;
@@ -139,7 +114,7 @@ h2 {
   }
   
   .gallery-block.compact-gallery .item .description{
-    display: grid;
+      display: grid;
       position: absolute;
       bottom: 0;
       left: 0;
@@ -168,14 +143,6 @@ h2 {
  
   }
   
- 
-
-.contactme {
-    margin-top: 50px; 
-    margin-right: 160px;
-    text-align: right;
-    color: #536878;
-}
 
 .controls {
     margin: 10px 160px;
@@ -184,21 +151,6 @@ h2 {
 
 .form-group {
   color: #536878;
-}
-
-.socialmedia {
-    margin-top: 80px;
-    padding-bottom: 10px;
-    background-color: #536878;
-}
-
-.submitbtn {
-    background-color: #536878;
-}
-.fab {
-    padding: 10px;
-    padding-top: 20px;
-    color: white;
 }
 
 .callemail {
@@ -210,10 +162,16 @@ h2 {
 .phone, .email {
   padding-top: 25px;
   padding-right: 20px;
+  padding-bottom: 25px;
+  text-decoration: none;
 }
 
 .footer-classic {
   background-color: #536878;
+}
+
+.footnote {
+  font-size: 12px;
 }
 
 @media (min-width: 576px) {
