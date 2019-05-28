@@ -42,7 +42,7 @@ header.masthead {
   } 
     
   header.masthead h3{
-    font-size: 20px;
+    font-size: 16px;
     color: #F8F8F8;
   } 
 
@@ -196,16 +196,18 @@ h2 {
       padding-bottom: 12rem;
       object-fit: cover;
     }
+    
     header.masthead h1 {
-      font-size: 35px;
+      font-size: 30px;
       padding-left: 20px;
-      text-align: left;
+      text-align: center;
     }
 
     header.masthead h3 {
-      font-size: 20px;
+      font-size: 12px;
       padding-left: 20px;
-      text-align: left;
+      padding-right: 20px;
+      text-align: justify;
     }
 
     
